@@ -1,0 +1,24 @@
+{
+    "name": "yoeb/category",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yoeb\\Category\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "YOEB.NET",
+            "email": "support@yoeb.net"
+        }
+    ],
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yoeb\\Category\\YoebServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
